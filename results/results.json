@@ -1,0 +1,50 @@
+[
+  {
+    "panel": "1番盤",
+    "verdict": "正常",
+    "p_abnormal": 0.002,
+    "lamp_p_red": {
+      "左": 0.001,
+      "中央": 0.001,
+      "右": 0.002
+    },
+    "red_lamp_position": null,
+    "color_check_position": null,
+    "ai_color_agree": true,
+    "red_pixels": 0,
+    "green_pixels": 1541,
+    "image": "panel_1.png"
+  },
+  {
+    "panel": "2番盤",
+    "verdict": "異常",
+    "p_abnormal": 0.994,
+    "lamp_p_red": {
+      "左": 0.001,
+      "中央": 0.994,
+      "右": 0.002
+    },
+    "red_lamp_position": "中央",
+    "color_check_position": "中央",
+    "ai_color_agree": true,
+    "red_pixels": 506,
+    "green_pixels": 1057,
+    "image": "panel_2.png"
+  },
+  {
+    "panel": "3番盤",
+    "verdict": "正常",
+    "p_abnormal": 0.002,
+    "lamp_p_red": {
+      "左": 0.001,
+      "中央": 0.002,
+      "右": 0.002
+    },
+    "red_lamp_position": null,
+    "color_check_position": null,
+    "ai_color_agree": true,
+    "red_pixels": 0,
+    "green_pixels": 1541,
+    "image": "panel_3.png"
+  }
+]
